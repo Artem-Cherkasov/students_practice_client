@@ -1,0 +1,318 @@
+.profile_wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.main_content {
+    width: 800px;
+}
+
+.title {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 56px;
+    color: #16456D;
+}
+
+.profile_header {
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.student_info {
+    display: flex;
+    margin: 0 0 20px 0;
+}
+
+.edit_student_info {
+    display: flex;
+    margin: 0 0 20px 0;
+}
+
+.photo_wrapper {
+    display: flex;
+    align-items: center;
+    height: auto;
+    flex-direction: column;
+    padding: 0 20px 0 0;
+}
+
+.photo {
+    width: 200px;
+    border-radius: 20px;
+    text-align: center;
+    margin-bottom: 17px;
+}
+
+.fields {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #8ca5bb57;
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+}
+
+.fields:last-child {
+    margin: 0;
+}
+
+.item_wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin-bottom: 5px;
+}
+
+.item_wrapper input {
+    border: 1px solid #0f4c81;
+}
+.item_wrapper:active{
+    box-shadow: none;
+}
+
+.item_wrapper:not(:focus:active) input{
+    box-shadow: none;
+}
+
+.item_wrapper input:focus {
+    border: 1px solid #0f4c81;
+}
+
+.item_wrapper:focus:active{
+    box-shadow: none;
+    border: 1px solid #0f4c81;
+}
+
+.text_area {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.text_area textarea {
+    border: 1px solid #0f4c81;
+}
+
+.text_area:active{
+    box-shadow: none;
+}
+
+.text_area:not(:focus:active) textarea{
+    box-shadow: none;
+}
+
+.text_area textarea:focus {
+    border: 1px solid #0f4c81;
+}
+
+.text_area:focus:active{
+    box-shadow: none;
+    border: 1px solid #0f4c81;
+}
+
+.text_area:last-child {
+    margin: 0;
+}
+
+.item_title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #16456D;
+}
+
+.info_wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.grade {
+    display: flex;
+    margin: 0 0 20px 0;
+}
+
+.grade_table_school {
+    width: 100%;
+    margin-right: 10px;
+}
+
+.grade_table_school tr th, .grade_table_university tr th{
+    background-color: #8ca5bb57;
+    padding: 2px 5px;
+    font-family: 'Roboto', sans-serif;
+    color: #16456D;
+    border: 1px solid #16446d61;
+    text-align: center;
+    font-size: 14px;
+    height: 68px;
+    width: 135px;
+}
+
+.grade_table_school tr td, .grade_table_university tr td {
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid #16446d61;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+.about_title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #16456D;
+    font-size: 25px;
+}
+
+.about_text {
+    padding: 10px;
+    background-color: #8ca5bb57;
+    text-align: justify;
+    border-radius: 10px;
+}
+
+.editButton_students {
+    background-color: #0f4c81;
+    border: 1px #0f4c81;
+    width: 230px;
+    height: 42px;
+    border-radius: 10px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.editButton_students:focus {
+    background-color: #0f4c81;
+}
+
+.editButton_students:focus:active {
+    background-color: #0f4c81;
+    box-shadow: none;
+}
+
+.editButton_students:not(:focus:active) {
+    background-color: #0f4c81;
+    box-shadow: none;
+}
+
+.editButton_students:not(:focus:active):hover {
+    background-color: #012f58;
+    box-shadow: none;
+}
+
+.saveButton_students {
+    background-color: #0f4c81;
+    border: 1px #0f4c81;
+    width: 150px;
+    height: 42px;
+    border-radius: 10px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: auto;
+}
+
+.saveButton_students:focus {
+    background-color: #0f4c81;
+}
+
+.saveButton_students:focus:active {
+    background-color: #0f4c81;
+    box-shadow: none;
+}
+
+.saveButton_students:not(:focus:active) {
+    background-color: #0f4c81;
+    box-shadow: none;
+}
+
+.saveButton_students:not(:focus:active):hover {
+    background-color: #012f58;
+    box-shadow: none;
+}
+
+.nav .nav_link {
+    padding: 0;
+}
+
+.submit_button {
+    color: #ffffff;
+    background-color: #0f4c81;
+    border: #0f4c81;
+}
+
+.submit_button:focus:active {
+    background-color: #0F4C81;
+    box-shadow: none;
+}
+
+.submit_button:not(:focus:active) {
+    background-color: #0F4C81;
+    box-shadow: none;
+}
+
+.submit_button:not(:focus:active):hover {
+    background-color: #012f58;
+    box-shadow: none;
+}
+
+.upload_image {
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.addButton_photo {
+    background-color: #0f4c81;
+    width: inherit;
+    border: 1px #0f4c81;
+    height: 42px;
+    border-radius: 10px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.addButton_photo:focus {
+    background-color: #0f4c81;
+}
+
+.addButton_photo:focus:active {
+    background-color: #0f4c81;
+    box-shadow: none;
+}
+
+.addButton_photo:not(:focus:active) {
+    background-color: #0f4c81;
+    box-shadow: none;
+}
+
+.addButton_photo:not(:focus:active):hover {
+    background-color: #012f58;
+    box-shadow: none;
+}
+
+.error_message_wrapper {
+    width: 100%;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    width: inherit;
+    padding: 10px 10px;
+    font-size: 14px;
+    border: 1px solid #0f4c81;
+    border-radius: 10px;
+    background-color: #ff76769c
+}

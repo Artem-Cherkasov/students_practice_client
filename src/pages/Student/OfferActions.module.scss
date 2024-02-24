@@ -1,0 +1,159 @@
+.modal_title {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 56px;
+    color: #16456D;
+}
+
+.modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+    pointer-events: none;
+}
+
+.modal.enter-done {
+    opacity: 1;
+    pointer-events: visible;
+}
+
+.modal.exit {
+    opacity: 0;
+}
+
+.modal-content {
+    width: 500px;
+    background-color: #fff;
+    transition: all 0.3s ease-in-out;
+    transform: translateY(-200px);
+}
+
+.modal.enter-done .modal-content {
+    transform: translateY(0);
+}
+
+.modal.exit .modal-content {
+    transform: translateY(-200px);
+}
+
+.modal-header,
+.modal-footer {
+    padding: 10px;
+}
+
+.modal-title {
+    margin: 0;
+}
+
+.modal-body {
+    padding: 10px;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.elementMargin {
+    margin: 10px 0;
+}
+
+.accept_button {
+    background: #FFFFFF;
+    border: 2px solid #3bab3b;
+    color: #3bab3b;
+}
+
+.accept_button:focus:active {
+    background-color: #3bab3b;
+    box-shadow: none;
+    border: 2px solid #3bab3b;
+}
+
+.accept_button:not(:focus:active) {
+    color: #3bab3b;
+    background-color: white;
+    box-shadow: none;
+    border: 2px solid #3bab3b;
+}
+
+.accept_button:not(:focus:active):hover {
+    color: white;
+    background-color: #3bab3b;
+    box-shadow: none;
+}
+
+.denyButton {
+    background: #FFFFFF;
+    border: 2px solid #fa5656;
+    color: #fa5656;
+}
+
+.denyButton:focus:active {
+    background-color: #fa5656;
+    box-shadow: none;
+    border: 2px solid #fa5656;
+}
+
+.denyButton:not(:focus:active) {
+    color: #fa5656;
+    background-color: white;
+    box-shadow: none;
+    border: 2px solid #fa5656;
+}
+
+.denyButton:not(:focus:active):hover {
+    color: white;
+    background-color: #fa5656;
+    box-shadow: none;
+}
+
+.button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    width: 40px;
+    height: 38px;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 12px 20px;
+}
+
+.button:hover {
+    border: 1px solid #0F4C81;
+}
+
+.submit_button {
+    color: #ffffff;
+    background-color: #0f4c81;
+    border: #0f4c81;
+}
+
+.submit_button:focus:active {
+    background-color: #0F4C81;
+    box-shadow: none;
+}
+
+.submit_button:not(:focus:active) {
+    background-color: #0F4C81;
+    box-shadow: none;
+}
+
+.submit_button:not(:focus:active):hover {
+    background-color: #012f58;
+    box-shadow: none;
+}

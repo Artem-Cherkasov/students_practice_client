@@ -1,0 +1,101 @@
+.form_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.main_content {
+    width: 210px;
+}
+
+.students_wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.students_header {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.header_title {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 56px;
+    color: #16456d;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.input input {
+    border: 1px solid #0f4c81;
+}
+
+.input select:focus {
+    border: 1px solid #0f4c81;
+}
+
+.input:not(:focus:active) select{
+    box-shadow: none;
+}
+
+.input:nth-child(3n + 3) {
+    margin-right: 0;
+}
+
+.input:active{
+    box-shadow: none;
+}
+
+.input:not(:focus:active) input{
+    box-shadow: none;
+}
+
+.input input:focus {
+    border: 1px solid #0f4c81;
+}
+
+.input:focus:active{
+    box-shadow: none;
+    border: 1px solid #0f4c81;
+}
+
+.submit_button {
+    color: #ffffff;
+    background-color: #0f4c81;
+    border: #0f4c81;
+}
+
+.submit_button:focus:active {
+    background-color: #0F4C81;
+    box-shadow: none;
+}
+
+.submit_button:not(:focus:active) {
+    background-color: #0F4C81;
+    box-shadow: none;
+}
+
+.submit_button:not(:focus:active):hover {
+    background-color: #012f58;
+    box-shadow: none;
+}
+
+.error_message {
+    width: 100%;
+    background-color: #ff76769c;
+    text-align: center;
+    margin: 0 0 10px 0;
+    padding: 10px;
+    border: 1px solid #0f4c81;
+    border-radius: 0.357rem;
+}

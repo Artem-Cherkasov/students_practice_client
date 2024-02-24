@@ -1,0 +1,156 @@
+.form_title {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 56px;
+    color: #16456D;
+}
+
+.label {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    color: #16456D;
+}
+
+.input {
+    flex: 0 1 30%;
+    margin-right: 38px;
+}
+
+.input input {
+    border: 1px solid #0f4c81;
+}
+
+.input select {
+    border: 1px solid #0f4c81;
+}
+
+.input select:focus {
+    border: 1px solid #0f4c81;
+}
+
+.input:not(:focus:active) select{
+    box-shadow: none;
+}
+
+.input:nth-child(3n + 3) {
+    margin-right: 0;
+}
+
+.input:active{
+    box-shadow: none;
+}
+
+.input:not(:focus:active) input{
+    box-shadow: none;
+}
+
+.input input:focus {
+    border: 1px solid #0f4c81;
+}
+
+.input:focus:active{
+    box-shadow: none;
+    border: 1px solid #0f4c81;
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.form_areas {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.area:nth-child(3n + 3) {
+    margin-right: 0;
+}
+
+.area textarea {
+    border: 1px solid #0f4c81;
+}
+
+.area:nth-child(3n + 3) {
+    margin-right: 0;
+}
+
+.area:active{
+    box-shadow: none;
+}
+
+.area:not(:focus:active) textarea{
+    box-shadow: none;
+}
+
+.area textarea:focus {
+    border: 1px solid #0f4c81;
+}
+
+.area:focus:active{
+    box-shadow: none;
+    border: 1px solid #0f4c81;
+}
+
+.button {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #0f4c81;
+    width: 40px;
+    border-radius: 10px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.button:focus:active {
+    background-color: #0F4C81;
+    box-shadow: none;
+}
+
+.button:not(:focus:active) {
+    background-color: #0F4C81;
+    box-shadow: none;
+    border: 1px solid #0F4C81;
+}
+
+.button:not(:focus:active):hover {
+    background-color: #012f58;
+    box-shadow: none;
+    border: 1px solid #0F4C81;
+}
+
+.redactButton {
+    color: #ffffff;
+    background-color: #0f4c81;
+}
+
+.submit_button {
+    color: #ffffff;
+    background-color: #0f4c81;
+    border: #0f4c81;
+}
+
+.submit_button:focus:active {
+    background-color: #0F4C81;
+    box-shadow: none;
+}
+
+.submit_button:not(:focus:active) {
+    background-color: #0F4C81;
+    box-shadow: none;
+}
+
+.submit_button:not(:focus:active):hover {
+    background-color: #012f58;
+    box-shadow: none;
+}
+

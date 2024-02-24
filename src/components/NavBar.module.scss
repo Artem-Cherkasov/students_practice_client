@@ -1,0 +1,20 @@
+.navbarPadding {
+  margin-top: -4px;
+  margin-bottom: -8px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.textWhite {
+  color: #ffffff;
+}
+
+.department {
+  margin-right: 20px;
+  padding: 8px;
+}
+
+.dropdown_title a::after {
+  color: white;
+}

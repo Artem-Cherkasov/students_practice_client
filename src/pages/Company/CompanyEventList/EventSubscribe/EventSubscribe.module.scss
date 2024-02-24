@@ -1,0 +1,226 @@
+.show_downloaded {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #0f4c81;
+    width: 40px;
+    border-radius: 10px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid #0f4c81;
+}
+
+.show_downloaded:focus:active {
+    background-color: #0f4c81;
+    box-shadow: none;
+}
+
+.show_downloaded:not(:focus:active) {
+    background-color: #0f4c81;
+    box-shadow: none;
+}
+
+.show_downloaded:not(:focus:active):hover {
+    background-color: #012f58;
+    box-shadow: none;
+}
+
+.about_file {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.file_title {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    margin-right: 10px;
+}
+
+.download_button {
+    width: 40px;
+    border-radius: 10px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+    border: 1px solid #0f4c81;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.download_button:focus:active {
+    background-color: #0f4c81;
+    box-shadow: none;
+}
+
+.download_button:not(:focus:active) {
+    background-color: #0f4c81;
+    box-shadow: none;
+}
+
+.download_button:not(:focus:active):hover {
+    background-color: #012f58;
+    box-shadow: none;
+}
+
+.submit_button {
+    color: #ffffff;
+    background-color: #0f4c81;
+    border: #0f4c81;
+}
+
+.submit_button:focus:active {
+    background-color: #0f4c81;
+    box-shadow: none;
+}
+
+.submit_button:not(:focus:active) {
+    background-color: #0f4c81;
+    box-shadow: none;
+}
+
+.submit_button:not(:focus:active):hover {
+    background-color: #012f58;
+    box-shadow: none;
+}
+.show_downloaded {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #0f4c81;
+    width: 40px;
+    border-radius: 10px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid #0f4c81;
+}
+
+.show_downloaded:focus:active {
+    background-color: #0f4c81;
+    box-shadow: none;
+}
+
+.show_downloaded:not(:focus:active) {
+    background-color: #0f4c81;
+    box-shadow: none;
+}
+
+.show_downloaded:not(:focus:active):hover {
+    background-color: #012f58;
+    box-shadow: none;
+}
+
+.about_file {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.file_title {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    margin-right: 10px;
+}
+
+.download_button {
+    width: 40px;
+    border-radius: 10px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+    border: 1px solid #0f4c81;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.download_button:focus:active {
+    background-color: #0f4c81;
+    box-shadow: none;
+}
+
+.download_button:not(:focus:active) {
+    background-color: #0f4c81;
+    box-shadow: none;
+}
+
+.download_button:not(:focus:active):hover {
+    background-color: #012f58;
+    box-shadow: none;
+}
+
+.submit_button {
+    color: #ffffff;
+    background-color: #0f4c81;
+    border: #0f4c81;
+}
+
+.submit_button:focus:active {
+    background-color: #0f4c81;
+    box-shadow: none;
+}
+
+.submit_button:not(:focus:active) {
+    background-color: #0f4c81;
+    box-shadow: none;
+}
+
+.submit_button:not(:focus:active):hover {
+    background-color: #012f58;
+    box-shadow: none;
+}
+
+.form {
+    display: flex;
+}
+
+.input {
+    flex: 0 1 50%;
+    margin-right: 38px;
+}
+
+.input input {
+    border: 1px solid #0f4c81;
+}
+
+.input:last-child {
+    margin-right: 0;
+}
+
+.input:active{
+    box-shadow: none;
+}
+
+.input:not(:focus:active) input{
+    box-shadow: none;
+}
+
+.input input:focus {
+    border: 1px solid #0f4c81;
+}
+
+.input:focus:active{
+    box-shadow: none;
+    border: 1px solid #0f4c81;
+}
+
+.label {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    color: #16456D;
+}

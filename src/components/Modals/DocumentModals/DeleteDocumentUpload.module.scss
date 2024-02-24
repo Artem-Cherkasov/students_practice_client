@@ -1,0 +1,68 @@
+.deleteButton {
+    background: #FFFFFF;
+    border: 1px solid #0F4C81;
+    color: #0F4C81;
+}
+
+.deleteButton:focus:active {
+    background-color: #0F4C81;
+    box-shadow: none;
+    border: 1px solid #0F4C81;
+}
+
+.deleteButton:not(:focus:active) {
+    color: #0F4C81;
+    background-color: white;
+    box-shadow: none;
+    border: 1px solid #0F4C81;
+}
+
+.deleteButton:not(:focus:active):hover {
+    color: white;
+    background-color: #0F4C81;
+    box-shadow: none;
+}
+
+.button {
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    width: 40px;
+    height: 38px;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 12px 20px;
+    margin-right: -35px;
+}
+
+.button:hover {
+    border: 1px solid #0F4C81;
+}
+
+.submit_button {
+    color: #ffffff;
+    background-color: #0f4c81;
+    border: #0f4c81;
+}
+
+.submit_button:focus:active {
+    background-color: #0F4C81;
+    box-shadow: none;
+}
+
+.submit_button:not(:focus:active) {
+    background-color: #0F4C81;
+    box-shadow: none;
+}
+
+.submit_button:not(:focus:active):hover {
+    background-color: #012f58;
+    box-shadow: none;
+}
+.modal-title {
+    margin: 0;
+}

@@ -1,0 +1,52 @@
+.table {
+    min-width: 100%;
+}
+
+.table_main {
+    min-width: 620px;
+    max-width: 100%;
+    width: 100%;
+}
+
+.main_content {
+    width: 800px;
+}
+
+.btn .btn-primary {
+    margin: 0;
+}
+
+.pageWidth {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.students_wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.students_header {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.table_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.header_title {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 56px;
+    color: #16456d;
+    margin-right: 15px;
+}
